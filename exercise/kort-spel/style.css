@@ -1,0 +1,66 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 10rem;
+    height: 15rem;
+    background-color: white;
+    margin: 5rem;
+}
+
+.heart {
+    color: red;
+    font-size: 1.3em;
+}
+
+.top, .bottom {
+    margin: 0.5rem;
+}
+
+.top {
+    align-self: flex-start;
+}
+
+.top > .number {
+    margin-left: 0.15rem;
+}
+
+.middle {
+    align-self: center;
+}
+
+.middle > p {
+    font-size: 3rem;
+}
+
+.bottom {
+    align-self: flex-end;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bottom > p {
+    transform: scale(-1, -1);
+}
+
+.bottom > .number {
+    margin-right: 0.15rem;
+}

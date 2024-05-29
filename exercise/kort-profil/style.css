@@ -1,0 +1,77 @@
+:root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    margin: 5rem;
+    padding: 0;
+    background-color: white;
+    width: 20rem;
+    height: 28rem;
+}
+
+.close {
+    margin: 1rem 1rem 1rem auto;
+}
+
+.close > p {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: gray;
+}
+
+.person {
+    margin-top: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person > h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1rem 0rem 0rem 0rem;
+    padding: 0;
+}
+
+.person > p {
+    margin-top: 0.5rem;
+    color: gray;
+}
+
+.person > img {
+    width: 40%;
+    border-radius: 999rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto 0rem 2rem 0rem;
+}
+
+.contact > a {
+    text-decoration: none;
+    background-color: rgb(55, 55, 55);
+    color: lightgrey;
+    padding: 0.8rem 1.8rem;
+    border-radius: 999rem;
+}

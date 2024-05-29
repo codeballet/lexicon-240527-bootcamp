@@ -1,0 +1,124 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --R: 30;
+    --G: 20;
+    --B: 10;
+    --C: 15;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.fib {
+    display: flex;
+    flex-direction: row;
+    height: 7rem;
+}
+
+.rev {
+    flex-direction: row-reverse;
+}
+
+.fib p {
+    color: white;
+    padding: 0.3rem;
+}
+
+.fib p:nth-child(1) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 1),
+        calc(var(--G) + var(--C) * 1),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 1;
+}
+
+.fib p:nth-child(2) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 2),
+        calc(var(--G) + var(--C) * 2),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 1;
+    /* width: calc(var(--WIDTH) * 1rem); */
+}
+
+.fib p:nth-child(3) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 3),
+        calc(var(--G) + var(--C) * 3),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 1;
+    /* width: calc(var(--WIDTH) * 1rem); */
+}
+
+.fib p:nth-child(4) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 4),
+        calc(var(--G) + var(--C) * 4),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 2;
+    /* width: calc(var(--WIDTH) * 2rem); */
+}
+
+.fib p:nth-child(5) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 5),
+        calc(var(--G) + var(--C) * 5),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 3;
+    /* width: calc(var(--WIDTH) * 3rem); */
+}
+
+.fib p:nth-child(6) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 6),
+        calc(var(--G) + var(--C) * 6),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 5;
+    /* width: calc(var(--WIDTH) * 5rem); */
+}
+
+.fib p:nth-child(7) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 7),
+        calc(var(--G) + var(--C) * 7),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 8;
+    /* width: calc(var(--WIDTH) * 8rem); */
+}
+
+.fib p:nth-child(8) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 8),
+        calc(var(--G) + var(--C) * 8),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 13;
+}
+
+.fib p:nth-child(9) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 9),
+        calc(var(--G) + var(--C) * 9),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 21;
+}
+
+.fib p:nth-child(10) {
+    background: rgb(
+        calc(var(--R) + var(--C) * 10),
+        calc(var(--G) + var(--C) * 10),
+        calc(var(--B) + var(--C) * 1)
+    );
+    flex: 34;
+}
